@@ -24,6 +24,6 @@ public class Contacto {
     
     @Override
     public String toString(){
-        return String.format("%s das --> %d",this.nombre,this.telefono);
+        return String.format("%s --> %d",this.nombre,this.telefono);
     }
 }
